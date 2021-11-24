@@ -1,0 +1,177 @@
+
+body{
+  font-family: "Montserrat"
+}
+
+#title{
+  color:#fff;
+  background-color: #ff4c68;
+}
+
+
+h1{
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-right: 35px;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+button{
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+  /* top left-right bottom */
+}
+
+
+/* navigation-bar */
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: "Montserrat-light";
+}
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  width: 55%;
+  /* top: -30px; */
+
+}
+
+
+/* download-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* feature section */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index:1; */
+  /* Also works according to the stack order */
+  /* i.e which element is below the other the below element will be on the top */
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.pr{
+  font-family: "Montserrat-light";
+  color: grey;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials{
+   /* moved to carousel-items so that it will look nicer */
+  /* padding: 7% 15%;  */
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing-section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* cta section */
+
+#cta{
+  text-align: center;
+  background-color:#ef8172;
+  padding-top: 2.5rem;
+}
+
+
+.cta-heading{
+  font-size: 2.5rem;
+  padding:0 350px 0;
+  color: #fff;
+}
+
+/* Footer */
+#footer{
+  margin: 100px 0 100px  0 ;
+  text-align: center;
+}
+
+.ficon{
+  margin: 0 10px 10px;
+}
+
+/* Media query break-points */
+
+@media (max-width:996px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
